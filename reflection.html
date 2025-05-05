@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reflection</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="philosophy.html">Philosophy</a> |
+    <a href="tutors.html">Tutors</a> |
+    <a href="experiment.html">Experiment</a> |
+    <div class="dropdown">
+      <span class="dropbtn">Prompts ▾</span>
+      <div class="dropdown-content">
+        <a href="prompts-chum.html">ChumGPT</a>
+        <a href="prompts-wizard.html">Wizard of 1188</a>
+        <a href="prompts-coach.html">CoachGPT</a>
+        <a href="prompts-pop.html">Pop Culture Explainer</a>
+      </div>
+    </div> |
+    <a href="reflection.html">Reflection</a>
+  </nav>
+
+  <main class="reflection-text">
+    <h1 class="reflection-title">Reflection on Using AI</h1>
+
+    <p>
+      Before this project, I had almost no experience making websites or coding in HTML or even figuring out how to access Codespaces where I could code the website/see previews of it live. Furthermore, I had never made a Custom GPT before. I have split this reflection into two parts: one part that details my experience using AI to help me make the website and plan the project more broadly, and another part that discusses my experience making the system prompts themselves and talking to the tutors (you can see some of my thinking behind the final system prompts on the “Prompts” pages for each bot).
+    </p>
+
+    <section>
+      <h2 class="section-title">Project Planning and Website Design</h2>
+
+      <h3>Planning the Project</h3>
+      <p>
+        While the idea to make the suite of AI tutors with different fun personas was my own (I came up with it before opening ChatGPT), I used ChatGPT-4o to plan most of the details of my project.
+        First, I asked it to help me come up with some of the specific characters in addition to the ideas I’d had, and it suggested a pirate tutor which I ended up using. Some of its other suggestions, like a surfer, were a little more difficult to make into effective tutors, which I discuss later in the reflection.
+      </p>
+      <p>
+        Next, I asked it whether making a website as a presentation/deliverable for my project would be possible, and how to do this. I detail my web design experience below, but in the planning phase, it was very encouraging and told me that this website was possible and could even be good quality with some effort. I gave it my vision for what pages the website would have (a home page, a philosophy/background page, a page linking to each of the tutors, and a page or set of pages with a breakdown of the final system prompts) and it encouraged this format and helped me come up with overall styles for the site (giving me complementary colors for my neonish blue/purple theme, which I had decided on as it was similar to the Gened 1188 colors).
+      </p>
+      <p>
+        Furthermore, I asked 4o to help write my presentation for my section, but its bullet points were very generic even after I explained in multiple paragraphs the things I wanted to highlight (I didn’t ask it to make slides, just to write the writing for the slides). So, the presentation I made on my own.
+      </p>
+
+      <h3>Web Design</h3>
+      <p>
+        I wanted to use HTML coding rather than making a site on a website-making website to see some of the coding capabilities of ChatGPT-4o (and because this would be more fun), so I asked 4o the best way to do this. It gave me step-by-step instructions to make a GitHub repository like we did in class and upload index.html and commit it to the page. However, I could not get this to work for almost an hour—I went through its instructions exactly, but continued to do something wrong. I repeatedly showed it my page in screenshot or URL to show what I was looking at to ask for help, and it would apologize and give me an instruction that I had already implemented etc. for a long time.
+      </p>
+      <p>
+        Eventually, I made a new chat and filled it in on my project/progress. I didn’t want to have to rely solely on uploading a new .html file and committing it and waiting for the branch to update every time I wanted to see an edit of the page. This new chat gave me instructions on how to use Codespaces in GitHub, and things became much easier.
+      </p>
+      <p>
+        I asked 4o if I could see my website in real time, and it told me in very clear detail (without a screenshot for reference) to click the extensions icon on the left and download Microsoft’s Live Preview extension, which worked perfectly and was really helpful as I did the web design.
+      </p>
+      <p>
+        In terms of actually making the pages, I told it what I wanted very clearly, and 4o would write me (either in Canvas or in the chat) the HTML for each page, either in snippets or in entire pages. I would put in the text of the pages myself (e.g. descriptions in the “Tutors” and “Philosophy” page, and explanations in the “Prompts” pages) but the actual HTML was written by 4o as I didn’t know how to do that. For someone with little technical background like myself, this was incredibly vital.
+      </p>
+      <p>
+        4o also helped me input pictures and redesign entire pages’ HTML code to reformat around new pictures (often I wouldn’t have the pictures I needed just yet, so I would ask it to put placeholders with the file names I anticipated using). I also asked it how to upload pictures and it explained how to make an images folder in the codespace and had me update the file paths in the code.
+      </p>
+      <p>
+        The style of the website was also written by 4o in the styles.css file in the codespace; this was written over many prompts where I would add new design features for different pages and we could just add in classes to the styles.css file cumulatively as I asked for more detail.
+      </p>
+      <p>
+        Overall, website design was one of the main time-consuming parts of the project, spanning many long nights of frustrating conversation with 4o. Technical issues in files and getting the site up and running were long, but actually writing and editing the code to fix issues I saw with it (e.g. 4o’s CSS classes leading to text boxes on top of each other or poorly fitted) was more or less efficient, even if I did edit things many times. I would certainly use ChatGPT or a similar tool in the future for web design, and even learned how to do this on my own to some extent (though with a very minimal toolkit to customize sites) over the course of talking to 4o.
+      </p>
+
+      <h3>Which AI Model Helped Me</h3>
+      <p>
+        I used ChatGPT-4o to help plan, schedule, write, and code my project. I found this, compared to the Meta Llama and Google Gemini models in the AI sandbox, was the most helpful in being an all-around helpful agent (it was efficient, wrote clearly, and even had a nice personality to talk me through doing the project on deadlines and with other assignments/exams, etc.).
+      </p>
+      <p>
+        Over the semester I’ve found that using ChatGPT-Edu can sometimes be confusing in terms of how much I can ask it questions, how much I can use advanced models, and how much I can give it coding or image tasks; often I ask the chat how much I can use these features and it will mistakenly tell me I can use them infinitely before restricting me a few minutes later. (Interestingly, this semester I’ve used AI Sandbox’s ChatGPT-4o model more often because it has never restricted how many images I can upload to it, and I often upload images of handwritten math to convert to LaTeX.)
+      </p>
+      <p>
+        I had access to my dad’s account, so I used that account to avoid the uncertainty about using my Harvard account. (This is why the GPTs’ author is “Anupam Chander” on the website.)
+      </p>
+      <p>
+        <strong>Importantly, if you are logged into Harvard’s ChatGPT-Edu and are on the “harvard-university-chatgpt” profile with this login, you cannot access my custom GPTs. HOWEVER, you can access my custom GPTs if you switch to “Personal Account” which you can do on the SAME LOGIN (you don’t need to buy a whole subscription or anything)! Through the Harvard login you can make a Personal Account, switch to that, and enjoy the custom character tutor GPTs. I’ve tested this on my account and on my friends’ accounts.</strong>
+      </p>
+
+      <h3>Image Creation</h3>
+      <p>
+        In 4o chat itself, I used the “Create image” option which presumably calls on DALL-E to make images. While in the past I remember having issues editing images it would make (it would not remember the exact appearance of an image it had just made and would approximate it in the edit), it now had almost perfect continuity which meant I could make a picture for all 4 of the bots together and then a profile picture for each of them, all in the same style! I also made some other images on the site with this, but for the most part it was helpful in designing the bots.
+      </p>
+
+      <h3>System Prompt Pages</h3>
+      <p>
+        When designing the website, the toughest technical/design challenge was making the pages where I explain the final system prompts I use on the website. I wanted this to show the final prompt and a small explanation on specific highlights of the prompt in some format. I had a few ideas for how to do this, but all of them involved some hover effect where hovering over the highlighted part would bold the background of it and show a brief description of why I included that part of the prompt/the significance of that part of the prompt.
+      </p>
+      <p>
+        First, I tried to have a little box of text appear only when hovering over the respective part of the prompt, but that ended up being clunky/hard to read, and I thought it didn’t look great.
+      </p>
+      <p>
+        I therefore changed to a more sleek style where you can read the entire prompt, but there are text boxes on either side (initially designed as speech bubbles, later changed to clearer rectangle boxes) with arrows generally pointing toward near the highlighted section which describe the motivation behind that part of the prompt and which also light up when you hover over their text (which also lights up). 
+      </p>
+      <p>
+        However, this was very difficult: first, the text boxes were largely on top of each other because 4o couldn’t see exactly what I was seeing (and even when updating it with a screenshot, it didn’t have a good sense for how many px to displace the boxes by). They were also all on the same side. I thought I could fix this by evenly spacing the boxes vertically, but the highlights were not evenly spaced so they didn’t fit at all. I then tried having them alternate sides (left or right) and the arrows on half of them were pointing the wrong way even though I asked 4o to update the arrow position. I had to run through this and similar issues multiple more times until I had it create a unique set of classes in styles.css where I hardcoded in the positioning by putting different px numbers for each vertical spacing individually until I was satisfied.
+      </p>
+      <p>
+        As this was incredibly time-consuming and 4o’s ideas to make it more efficient were not working, I only did this for the Pirate ChumGPT prompt page and then kept the same spacing for the other prompts’ pages, even though it leads to the occasional awkwardly-placed explanation box (but none so bad to make it hard to understand or read!). 
+      </p>
+      <p>
+        My takeaway from this was that ChatGPT’s ability to design pages/envision things it can’t actually see is very limited, which makes sense as it is hard to guess how to position things perfectly (even from lots of examples it’s seen) when pages are so different. 
+      </p>
+
+      <h3>Using AI to Design the Experiment</h3>
+      <p>
+        I came up with the mini experiment design structure on my own. However, I asked 4o to help me write the quiz itself, but this was a surprisingly long process as I wanted to write questions that would more closely match questions you would actually get in a test, but that would be reasonable for participants to get right after only studying for 5 minutes.
+      </p>
+      <p>
+        I gave 4o my abridged version of the lecture slides from the lecture I wanted to quiz the participants on, and asked it to write questions. However, it consistently made the questions too easy where anyone could figure out the answer without having done any studying. When I asked it to make them more difficult, it made the questions more detailed, but the answers were still obvious. A common issue was that the correct answers were by far the longest answers in almost every case.
+      </p>
+      <p>
+        After a while of explaining this issue, I was able to solve this by asking 4o to make the wrong answers more detailed or more plausible to someone unfamiliar with the concept, which worked after the third attempt.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Working with the Tutors and Designing the Prompts</h2>
+      <p>
+        While designing the tutors, I was aiming to make bots that would be fun to work with, would accurately portray their archetype (apart from having a detailed knowledge of AI and the content of Gened 1188), and would make the concepts more memorable and understandable through metaphor and example-based learning.
+      </p>
+    
+      <p>
+        To that end, I wanted my bots to have a few different examples/metaphors they could turn to as compelling and memorable ways to remember the concepts.
+      </p>
+    
+      <p>
+        My first attempt at making an AI tutor was with the PopGPT or Pop Culture Explainer. I gave it a generic system prompt which told it to read the big pdf of all of the slides I put in its “knowledge” and to speak in modern slang and pop culture references to explain course concepts when asked. This created clunky responses and often did not explain the concepts in a clear way, as it would jump into the references instead of the content itself.
+      </p>
+    
+      <p>
+        Responses were even worse in my first versions of the other tutors. I tried making a surfer and a disco-era tutor, giving instructions for the kind of slang to use like “tubular” or “rad,” but without a clear idea of what they would reference. Those characters did not have a large enough repository from which to draw examples to explain the concepts, so I had to scrap those ideas.
+      </p>
+    
+      <p>
+        In my first attempts at making the CoachGPT, WizardGPT, and ChumGPT (a punny name for the friendly pirate tutor that I came up with), I noticed similar issues where they would talk for a while about their example, but spend very little time actually explaining the concept outright. They would say things like “imagine you’re a cap’n (AI) trying to set the sails (parameters) just right …” and finish their example with little parenthetical phrases or terms to just barely connect the example to the concept. Though this would accurately depict the concept, it would not clearly explain the concept first.
+      </p>
+    
+      <p>
+        So, I wanted to make sure the learning would be prioritized, and updated all the prompts with a focus on the learning over the character/example. However, I wanted to keep the character idea of the project because that angle was potentially unique and helpful. So I changed the flow of the responses to be a clear explanation first and an in-universe example second, which drastically improved the clarity of the answers.
+      </p>
+    
+      <p>
+        Besides that important change, I instructed the tutors to stay in voice, at least, during the “clear explanation” parts.
+      </p>
+    
+      <p>
+        Finally, I thought that there could be even more engaging examples based on each character’s persona to make the bots more distinct. I tested out having the CoachGPT run “drills” where it would ask you practice questions and be encouraging like a nice coach, which worked as nice flavor around concept practice. And I thought that learning through song would be really helpful, so I workshopped a few system prompt lines in my ChumGPT about learning through brief sea shanties that touched on the technical specifics in memorable lines. I made analogous adjustments for PopGPT about teaching through raps, too.
+      </p>
+    
+      <p>
+        Making these tutors was frustrating and could of course use lots of work, but I tried hard to make them helpful given the time I had and had fun reading some of their output, especially the sea shanties about things like vector embeddings!
+      </p>
+    </section>
+  </main>
+</body>
+</html>

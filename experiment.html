@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experiment</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="philosophy.html">Philosophy</a> |
+    <a href="tutors.html">Tutors</a> |
+    <a href="experiment.html">Experiment</a> |
+    <div class="dropdown">
+      <span class="dropbtn">Prompts ▾</span>
+      <div class="dropdown-content">
+        <a href="prompts-chum.html">ChumGPT</a>
+        <a href="prompts-wizard.html">Wizard of 1188</a>
+        <a href="prompts-coach.html">CoachGPT</a>
+        <a href="prompts-pop.html">Pop Culture Explainer</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Mini Experiment</h1>
+
+    <section>
+      <h2>Design Overview</h2>
+      <p>
+        To explore whether character tutors can enhance both understanding and engagement, I ran a small experiment with a few volunteers from my dorm. Everyone was given one abridged Gened 1188 lecture slide deck to study — covering supervised, unsupervised, and reinforcement learning — and then asked to take a brief quiz and report their experience.
+      </p>
+      <p>
+        Each participant was randomly assigned to one of three groups:
+      </p>
+      <ul>
+        <li><strong>Slides Only:</strong> Just the class slides</li>
+        <li><strong>Slides + Generic AI Tutor:</strong> The class slides, alongside a custom GPT tutor with no special character</li>
+        <li><strong>Slides + Character Tutor:</strong> The class slides, alongside any of the four custom tutors from this project (student's choice)</li>
+      </ul>
+      <p>
+        After a 5-minute study period, participants were made to wait 5 minutes before taking a short quiz to encourage retention rather than immediate recall.
+        Since examples are especially helpful in my ability to retain understanding, I thought that including this wait period might be important to capture the theoretical effects of having a character tutor.
+      </p>
+    </section>
+
+    <section>
+      <h2>Limitations</h2>
+      <p>
+        This is not a conclusive or controlled study — it involved only ~5 participants, and the differences between participants’ background knowledge, learning styles, and test-taking skills may affect results. Additionally, the short time frame (5 minutes of study, 5 minutes of delay) doesn’t reflect a real course structure where concepts build and memory matters over weeks. Still, it offers a concrete prototype that future iterations of Gened 1188 could scale into a real research design across an entire semester. One possible change for an actual experiment would be to include some cross-over design where each group then switches its assignment to another study method to ensure comparability across groups, as in Professor Kestin and Professor Miller's study.
+      </p>
+    </section>
+
+    <section>
+      <h2>Hypothesis</h2>
+      <p>
+        The hope and theory of this project is that those who use the character AI tutor will perform better on the quiz and will report a higher engagement score (a self-reported on 1-10 scale account of how motivated they'd be to do this again and how much they enjoyed their experience) than those with only slides and those with a generic AI tutor. Those with a generic AI tutor may in theory have better quiz score and engagement results than those with only the slides, but even if their accuracy is similar to the character tutor group, their engagement may still be lower.
+      </p>
+    </section>
+
+    <section class="image-section">
+      <h2>Results</h2>
+      <p>
+        The below results from my miniature experiment, which employed only a few people and is only meant as a possible experiment design for a future class to use, show a different pattern than I had hypothesized. 
+      </p>
+      <p>
+        Students who used only the slides actually reported the highest possible engagement, although those who used the character tutor also reported very high engagement, much higher than that of the generic AI tutor group.
+      </p>
+      <p>
+        Though the character tutor group had high engagement, their performance on the quiz was actually lower than the generic tutor group, and the same as the slides-only group. 
+      </p>
+      <p>
+        Clear limitations in the experiment design, as well as in the tutor design, may explain this. 5 minutes of studying and 3 minutes of waiting may be too short a time to benefit from the higher engagement and retention of memorable character tutor examples. The character tutors' examples may still be too clunky or confusing to teach the concepts in the 5 minute span, while an efficient generic tutor, or the same time being spent reading the slides themselves, may help the student learn more concepts in the same time.
+      </p>
+      <p>
+        It is possible that the character tutors are simply less efficient as tutors, taking more words to explain the same concepts as they fit in their own examples. However, over a longer period of time, and especially a longer wait time in between studying and taking the test, I maintain my hypothesis that you would see greater benefits from having learned with a character tutor than from employing another study method. This experiment doesn't give enough time to see those retention benefits, potentially.
+      </p>
+      <ul>
+        <li>📊 <strong>Quiz Score Comparison</strong> between the three groups</li>
+        <li>📈 <strong>Engagement / Motivation Ratings</strong> as self-reported on a scale from 1–10</li>
+      </ul>
+      <img src="images/quiz1.png" alt="Quiz Score Chart (placeholder)" class="hero-image" />
+      <img src="images/engagement1.png" alt="Engagement Chart (placeholder)" class="hero-image" />
+    </section>
+
+  </main>
+</body>
+</html>
